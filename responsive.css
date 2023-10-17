@@ -4,6 +4,18 @@ header {
     margin: 10px;
     animation: color-swap 0.2s linear 2s infinite;
 }
+h1 {
+    background-color: purple;
+    height: 20vh;
+    margin: 10px;
+    animation: size-funny4 0.5s linear 2s infinite;
+}
+h2 {
+    background-color: purple;
+    height: 20vh;
+    margin: 10px;
+    animation: size-funny5 0.5s linear 2s infinite;
+}
 
 
 
@@ -18,27 +30,59 @@ aside {
     background-color: royalblue;
     height: 50vh;
     margin: 10px;
-    animation: size-funny3 1s linear 1s infinite;
+    animation: size-funny3 0.2s linear 1s infinite;
 }
 z
 footer {
     background-color: blue;
     height: 10vh;
     margin: 10px;
-    animation: size-funny2 0.2s linear 1s infinite;
+    animation: size-funny4 1s linear 1s infinite;
 }
 
 @keyframes color-swap {
-    0% {background-color: purple;}
+    0% {background-color: rgb(128, 0, 0);}
     25% {background-color: orange;}
-    50% {background-color: green;}
-    100% {background-color: red;}
+    50% {background-color: rgb(255, 230, 0);}
+    100% {background-color: rgb(217, 255, 0);}
     0% {height: 20px;}
     25% {height: 50px;}
     50% {height: 100px;}
     100% {height: 150px;}
+    0% {height: 100px;}
+    25% {height: 50px;}
+    50% {height: 20px;}
+    
 }
 @keyframes size-funny3 {
+    0% {background-color: rgb(30, 255, 0);}
+    25% {background-color: orange;}
+    50% {background-color: green;}
+    100% {background-color: rgba(0, 162, 255, 0.377);}
+    0% {height: 20px;}
+    25% {height: 250px;}
+    50% {height: 500px;}
+    100% {height: 1000px;}
+    0% {width: 20px;}
+    25% {width: 100px;}
+    50% {width: 200px;}
+    100% {width: 300px;}
+}
+@keyframes size-funny4 {
+    0% {background-color: rgb(128, 109, 0);}
+    25% {background-color: rgb(255, 0, 0);}
+    50% {background-color: green;}
+    100% {background-color: red;}
+    0% {height: 20px;}
+    25% {height: 250px;}
+    50% {height: 500px;}
+    100% {height: 1000px;}
+    0% {width: 20px;}
+    25% {width: 100px;}
+    50% {width: 200px;}
+    100% {width: 300px;}
+}
+@keyframes size-funny5 {
     0% {background-color: purple;}
     25% {background-color: orange;}
     50% {background-color: green;}
@@ -60,22 +104,117 @@ footer {
 }
 
 @keyframes size-funny {
-    0% {background-color: red;}
-    25% {background-color: yellow;}
+    0% {background-color: rgb(68, 0, 255);}
+    25% {background-color: rgb(0, 204, 255);}
     50% {background-color: blue;}
-    100% {background-color: red;}
-    0% {width: 20px;}
-    25% {width: 100px;}
-    50% {width: 200px;}
-    100% {width: 300px;}
-    0% {height: 20px;}
-    25% {height: 50px;}
-    50% {height: 100px;}
-    100% {height: 150px;}
+    100% {background-color: rgb(140, 0, 255);}
+    0% {width: 1000px;}
+    25% {width: 250px;}
+    50% {width: 750px;}
+    100% {width: 1000;}
+    25% {width: 750px;}
+    50% {width: 500px;}
+    100% {width: 200;}
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
+    header {
+        height: 15vh;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav > div {
+        height: 25px;
+        width: 100px;
+    }
+
+    aside {
+        width: 25vw;
+        float: right;
+    }
+
+
+}
+@media screen and (max-width: 600px) {
+    header {
+        height: 15vh;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav > div {
+        height: 25px;
+        width: 100px;
+    }
+
+    aside {
+        width: 25vw;
+        float: right;
+    }
+
+
+}
+@media screen and (min-width: 600px) {
+    header {
+        height: 15vh;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav > div {
+        height: 25px;
+        width: 100px;
+    }
+
+    aside {
+        width: 25vw;
+        float: right;
+    }
+
+
+}
+@media screen and (min-width: 768px) {
+    header {
+        height: 15vh;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav > div {
+        height: 25px;
+        width: 100px;
+    }
+
+    aside {
+        width: 25vw;
+        float: right;
+    }
+
+
+}
+@media screen and (min-width: 1200px) {
     header {
         height: 15vh;
     }
