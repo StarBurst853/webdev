@@ -1,9 +1,8 @@
-function tellFortune(numOfChildren, partnerName, location, jobTitle) {
+function tellFortune(numOfChildren, partnerName, jobTitle) {
     e.preventDefeault();
 
     numOfChildren = document.getElementBy("children").value;
     partnerName = document.getElementBy("partner").value;
-    location = document.getElementBy("location").value;
     jobTitle = document.getElementBy("job").value;
 
 
@@ -12,14 +11,18 @@ function tellFortune(numOfChildren, partnerName, location, jobTitle) {
 
 function calculateDogAge(puppyAge) {
     dogAge = puppyAge * 7;
-    console.log(`Your Silly dog is ${dogAge}years old in dog years!`);
+    puppyAge = document.getElementById("dog-age").value
+    document.getElementById("age").innerHTML(`Your Silly dog is ${dogAge}years old in dog years!`);
 }
 
 function calculateSupply(age, amountPerDay) {
+    age = document.getElementById("age").value
+    amountPerDay = document.getElementById("amount-per-day").value
+    
     maxAge = 80;
     amountPerYear = amountPerDay * 365.25;
     totalAmount = (maxAge - age) * amountPerYear
-    console.log(`You will need ${totalAmount} to last you until the ripe old age of ${maxAge}`);
+    document.getElementById("supply").innerHTML (`You will need ${totalAmount} to last you until the ripe old age of ${maxAge}`);
 }
 
 function calcCircumfrence(radius) {
