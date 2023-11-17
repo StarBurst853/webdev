@@ -1,0 +1,52 @@
+#color {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+#click {
+    background-color:green;
+    height: 100px;
+    width: 100px;
+}
+#silly {
+    background-color:brown;
+    height: 100px;
+    width: 100px;
+
+}
+#no {
+    background-color:yellow;
+    height: 100px;
+    width: 100px;
+
+}
+#yes {
+    background-color:red;
+    height: 100px;
+    width: 100px;
+
+}
+#sure {
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+
+}
+#ok {
+    background-color:brown;
+    height: 100px;
+    width: 100px;
+
+}
+#yup {
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+
+}
+#yessir {
+    background-color:green;
+    height: 100px;
+    width: 100px;
+
+}

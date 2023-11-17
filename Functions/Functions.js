@@ -26,8 +26,9 @@ function calculateSupply(age, amountPerDay) {
 }
 
 function calcCircumfrence(radius) {
+    radius = document.getElementById("radius").value;
     circumference = 2 * Math.PI * radius;
-    console.log(`The circumference is ${circumference}`);
+    document.getElementById("circumference").innerHTML (`The circumference is ${circumference}`);
 }
 
 function celsiusToFahrenheit(celsius) {
