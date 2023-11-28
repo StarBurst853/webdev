@@ -1,0 +1,32 @@
+#price {
+    background-color: #c08552;
+}
+#income {
+    background-color: #c08552;
+}
+#food {
+    background-color: #c08552;
+}
+#cage {
+    background-color: #c08552;
+}
+#baby {
+    background-color: #c08552;
+}
+#health {
+    background-color: #c08552;
+}
+#other {
+    background-color: #c08552;
+}
+input {
+    color: black;
+}
+
+.tip {
+    visibility: hidden;
+}
+
+body {
+    background-color: rgb(70, 143, 70);
+}
