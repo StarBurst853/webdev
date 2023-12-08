@@ -1,0 +1,113 @@
+#title {
+    text-shadow: 50px;
+    color:black;
+    stroke: grey 2px;
+    padding: auto;
+    margin: 100px
+}
+#top {
+    border: solid 8px aqua;
+    height: 1000px;
+    width: 1800px;
+    animation: size-funny 0.75s linear;
+    padding: auto;
+    text-align: center;
+}
+#no {
+    text-align: center;
+
+}
+#no3 {
+    text-align: center;
+
+}
+@keyframes size-funny {
+    0% {height: 0px;}
+    25% {height: 250px;}
+    50% {height: 500px;}
+    75% {height: 750px;}
+    100% {height: 1000px;}
+}
+#pic1 {
+    border: solid 8px rgb(132, 0, 255);
+    padding: auto;
+}
+#form {
+    padding: auto;
+}
+#pic2 {
+    border: solid 8px rgb(132, 0, 255);
+    padding: auto;
+}
+@media screen and (min-width: 992px) {
+    header {
+        height: 15vh;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav > div {
+        height: 25px;
+        width: 100px;
+    }
+
+    aside {
+        width: 25vw;
+        float: right;
+    }
+
+
+}
+@media screen and (min-width: 1500px) {
+    header {
+        height: 15vh;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav > div {
+        height: 25px;
+        width: 100px;
+    }
+
+    aside {
+        width: 25vw;
+        float: right;
+    }
+
+
+}
+@media screen and (min-width: 200px) {
+    header {
+        height: 15vh;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav > div {
+        height: 25px;
+        width: 100px;
+    }
+
+    aside {
+        width: 25vw;
+        float: right;
+    }
+
+
+}
