@@ -15,5 +15,5 @@ function calc(){
 
     let total = Number(income) + Number(price) + Number(food) + Number(cage) + Number(baby) + Number(health) + Number(other);
 
-    document.getElementById("total").innerHTML = `total: ${total}`;
+    document.getElementById("total").innerHTML = `Your Goose will cost ${total}$`;
 }

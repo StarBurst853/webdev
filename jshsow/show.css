@@ -1,24 +1,37 @@
 #title {
     text-shadow: 50px;
-    color:black;
+    color:#000000;
     stroke: grey 2px;
     padding: auto;
-    margin: 100px
+    margin: 100px;
+    background-color: antiquewhite;
+    border: solid 8px rgba(165, 116, 42, 0.504);
+    height: 100px;
+    text-align: center;
+    border-radius: 15%;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 #top {
-    border: solid 8px aqua;
+    border: solid 8px brown;
     height: 1000px;
     width: 1800px;
     animation: size-funny 0.75s linear;
     padding: auto;
     text-align: center;
+    background-color: antiquewhite;
 }
 #no {
     text-align: center;
-
-}
-#no3 {
-    text-align: center;
+    margin: 100px;
+    margin-bottom: 50px;
+    border: solid 4px brown;
+    border-radius: 100%;
+    animation: silly 0.75s linear;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 @keyframes size-funny {
@@ -28,12 +41,24 @@
     75% {height: 750px;}
     100% {height: 1000px;}
 }
+@keyframes silly {
+    0% {size: 0px;}
+    25% {size: 250px;}
+    50% {size: 500px;}
+    75% {size: 750px;}
+    100% {size: 1000px;}
+}
 #pic1 {
     border: solid 8px rgb(132, 0, 255);
     padding: auto;
 }
 #form {
     padding: auto;
+    margin: 50px;
+}
+#money {
+    padding: auto;
+    margin: 50px;
 }
 #pic2 {
     border: solid 8px rgb(132, 0, 255);
